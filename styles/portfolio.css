@@ -192,10 +192,23 @@ main section {
 }
 
 /* Footer Styles */
+
 footer {
   display: flex;
   padding: 130px 230px;
   gap: 100px;
+}
+
+.footer-title{
+  margin-bottom: 20px;
+}
+
+.icons{
+  margin-top: 30px;
+}
+
+footer a{
+  margin-right: 30px;
 }
 
 .footer-column {
