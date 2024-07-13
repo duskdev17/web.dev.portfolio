@@ -234,28 +234,44 @@ footer textarea {
 }
 
 /* Responsive Media Query */
-.hide {
-  display: none;
-}
-
 @media screen and (max-width: 576px) {
+  .banner,
   .about-items,
   .skills-container,
   .resume-container,
+  nav,
+  nav > ul,
   footer {
     flex-direction: column;
   }
 
-  .about-item{
-    padding: 15px;
+  nav > ul {
+    margin-top: 10px;
+    gap: 10px;
   }
+
+  .btn-primary {
+    margin: 20px;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .banner {
+    margin: 20px;
+  }
+  .banner-profile-picture {
+    width: 100%;
+  }
+
+  footer,
+  .about,
+  .about-item,
   .resume-column {
     padding: 15px;
   }
-  footer,
-  .about {
-    padding: 15px;
-  }
+
   .footer-column {
     width: 100%;
   }
